@@ -4,8 +4,8 @@ import java.io.Serializable;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import in.ashokit.binding.Course;
+import in.ashokit.binding.Filme;
 
-public interface CourseRepository extends JpaRepository<Course, Serializable> {
+public interface FilmeRepository extends JpaRepository<Filme, Serializable> {
 
 }

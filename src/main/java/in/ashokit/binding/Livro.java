@@ -10,13 +10,18 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "COURSE_DTLS")
-public class Course {
+@Table(name = "livros")
+public class Livro {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer cid;
-	private String name;
-	private Double price;
+	private Integer idlivro;
+	private String titulolivro;
+	private String autorlivro;
+	private Integer anopublicacaolivro;
+	private String editoralivro;
+	private String paislivro;
+	private String capa;
+	private String generolivro;
 
 }

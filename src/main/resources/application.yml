@@ -1,9 +1,9 @@
 spring:
   datasource:
-    username: ashokit
-    password: AshokIT@123
-    url: jdbc:mysql://localhost:3306/sbms
-    driver-class-name: com.mysql.jdbc.Driver
+    username: lhmsyqty
+    password: U2lUo8xIxXSGF5y1mq71c8VDmbzjxj-Y
+    url: jdbc:postgresql://isabelle.db.elephantsql.com:5432/lhmsyqty
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
